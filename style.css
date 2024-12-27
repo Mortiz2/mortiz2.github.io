@@ -1,0 +1,70 @@
+@font-face {
+    font-family: digital-7;
+    src: url('digital-7.ttf');
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: #414141;
+}
+
+.calculator {
+    align-self: center;
+    height: 40vh;
+    width: 50vw;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+#screen {
+    background-color: #00ffeb;
+    border: solid 3px #107065;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: right;
+    font-family: digital-7;
+    font-size: 100px;
+
+}
+
+#output {
+    margin: 20px;
+    color: #107065;
+
+}
+
+#imput {
+    background-color: #a9a9a9;
+}
+
+#imput form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#imput form div {
+    padding: 15px;
+    padding-top: 60px;
+}
+
+.item input {
+    width: 60px;
+}
+
+#imput form label {
+    color: #5e5e5e;
+    font-size: small;
+}
+
+#oblicz input{
+    background-color: #5e5e5e;
+    border: none;
+    color: #a9a9a9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

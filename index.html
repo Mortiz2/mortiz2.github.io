@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="calculator">
+    <div id="screen">
+        <p id="output">0</p><br>
+    </div>
+    <div id="imput">
+        <form name="myForm">
+            <div class="item itemx">
+                <label for="x">Pierwsza liczba</label><br>
+                <input type="text" id="x" name="x">
+            </div>
+            <div class="item itemy">
+                <label for="y">Druga liczba</label><br>
+                <input type="text" id="y" name="y">
+            </div>
+            <div>
+                <label for="działanie">Działanie</label><br>
+                <select id="działanie" name="działanie">
+                    <option value="multiply">*</option>
+                    <option value="divide">/</option>
+                    <option value="add">+</option>
+                    <option value="subtract">-</option>
+                </select>
+            </div>
+            <div id="oblicz">
+                <input type="submit" value="Oblicz">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
